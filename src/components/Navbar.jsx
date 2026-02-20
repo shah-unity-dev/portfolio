@@ -51,7 +51,7 @@ export default function Navbar() {
 
             <nav ref={navRef} className="w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50">
 
-                <a href="#!">
+                <a href="#">
                     <img src="./assets/logo.png" alt="Logo" className="w-28 cursor-pointer mr-14 dark:hidden" />
                     <img src="./assets/logo_dark.png" alt="Logo" className="w-28 cursor-pointer mr-14 hidden dark:block" />
                 </a>
@@ -66,22 +66,22 @@ export default function Navbar() {
 
                 <div className="flex items-center gap-4">
                     <button onClick={toggleTheme}>
-                        <img src="./assets/moon_icon.png" alt="" className="w-5 dark:hidden" />
-                        <img src="./assets/sun_icon.png" alt="" className="w-5 hidden dark:block" />
+                        <img src="./assets/moon_icon.png" alt="" className="w-6 dark:hidden" />
+                        <img src="./assets/sun_icon.png" alt="" className="w-6 hidden dark:block" />
                     </button>
 
                  
-    <a href="https://www.linkedin.com/in/shah-unity-dev/"
+    <a href="https://mailto:shah.unity.dev@gmail.com/"
      target="_blank"
         rel="noopener noreferrer"
-        className="px-10 py-2.5 rounded-full border border-gray-300 dark:border-white/25 hover:bg-slate-100/70 dark:hover:bg-darkHover flex items-center gap-2 bg-white dark:bg-transparent dark:text-white">
-        Linkedin <img src="./assets/arrow-icon.png" alt="" className="w-4 dark:invert" />
+        className="px-5 py-1 rounded-full border border-gray-300 dark:border-white/25 hover:bg-slate-100/70 dark:hover:bg-darkHover flex items-center gap-2 bg-white dark:bg-transparent dark:text-white">
+        Email <img src="./assets/arrow-icon.png" alt="" className="w-3 dark:invert" />
     </a>
 
 
                     <button className="block md:hidden ml-3" onClick={openMenu}>
-                        <img src="./assets/menu-black.png" alt="" className="w-6 dark:hidden" />
-                        <img src="./assets/menu-white.png" alt="" className="w-6 hidden dark:block" />
+                        <img src="./assets/menu-black.png" alt="" className="w-7 dark:hidden" />
+                        <img src="./assets/menu-white.png" alt="" className="w-7 hidden dark:block" />
                     </button>
 
                 </div>
@@ -89,8 +89,8 @@ export default function Navbar() {
                 <ul ref={sideMenuRef} className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 font-Ovo dark:bg-darkHover dark:text-white">
 
                     <div className="absolute right-6 top-6" onClick={closeMenu}>
-                        <img src="./assets/close-black.png" alt="" className="w-5 cursor-pointer dark:hidden" />
-                        <img src="./assets/close-white.png" alt="" className="w-5 cursor-pointer hidden dark:block" />
+                        <img src="./assets/close-black.png" alt="" className="w-7 cursor-pointer dark:hidden" />
+                        <img src="./assets/close-white.png" alt="" className="w-7 cursor-pointer hidden dark:block" />
                     </div>
 
                     <li><a href="#top" onClick={closeMenu}>Home</a></li>

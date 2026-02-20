@@ -9,7 +9,7 @@ export default function Experience() {
             achievements: [
                 'Developed multiple casual & hybrid mobile games from scratch',
                 'Built scalable gameplay systems using SOLID & OOP',
-                'Integrated AdMob/MAX monetization',
+                'Polished existing games',
                 'Optimized performance for low-end Android devices'
             ]
         },
