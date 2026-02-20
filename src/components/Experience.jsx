@@ -7,7 +7,7 @@ export default function Experience() {
             logo: './assets/waywe-gaming.jpg',
             duration: 'April 2025 — Present',
             achievements: [
-                'Shipped multiple casual & hybrid mobile games',
+                'Developed multiple casual & hybrid mobile games from scratch',
                 'Built scalable gameplay systems using SOLID & OOP',
                 'Integrated AdMob/MAX monetization',
                 'Optimized performance for low-end Android devices'

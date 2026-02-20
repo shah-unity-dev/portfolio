@@ -11,7 +11,7 @@ export default function About() {
             name: 'Projects',
             icon1: './assets/project-icon.png',
             icon2: './assets/project-icon-dark.png',
-            description: 'Shipped 15+ games',
+            description: 'Shipped 15+ Games',
         },
         {
             name: 'Education',
@@ -23,7 +23,7 @@ export default function About() {
             name: 'Coursework',
             icon1: './assets/edu-icon.png',
             icon2: './assets/edu-icon-dark.png',
-            description: 'Specialzation in VR, University of London',
+            description: 'Game Development, Superior University Gold Campus',
         },
     ];
     return (
@@ -33,7 +33,7 @@ export default function About() {
 
             <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
                 <div className="max-w-max mx-auto relative">
-                    <img src='./assets/user-image.png' alt="" className="w-64 sm:w-80 rounded-3xl max-w-none" />
+                    <img src='./assets/user-image.jpeg' alt="" className="w-64 sm:w-80 rounded-3xl max-w-none" />
 
                     <div className="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center">
                         <img src="./assets/unity-game-dev-badge.png" alt="" className="w-full animate-spin_slow" />

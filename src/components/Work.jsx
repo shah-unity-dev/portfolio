@@ -35,6 +35,18 @@ export default function Work() {
       icon: './assets/mega-ramp.webp',
       link: 'https://play.google.com/store/apps/details?id=com.wawepokerface.car.stunt.formula.mega.ramp.driving.wawe',
     }
+    ,
+    {
+      name: 'Fill The Fridge',
+      icon: './assets/fill-the-fridge-icon.webp',
+      link: 'https://play.google.com/store/apps/details?id=com.kunhargamesstudios.fill.the.fridge.game',
+    }
+    ,
+    {
+      name: 'Fill The Closet',
+      icon: './assets/fill-the-closet-icon.webp',
+      link: 'https://play.google.com/store/apps/details?id=com.kunhargames.fill.the.closet.organizer3d',
+    }
   ];
 
   return (
