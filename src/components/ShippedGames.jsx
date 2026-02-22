@@ -1,5 +1,5 @@
-export default function Work() {
-  const work = [
+export default function ShippedGames() {
+  const shippedGames = [
     {
       name: 'Wool Puzzle',
       icon: './assets/wool-puzzle.webp',
@@ -50,12 +50,12 @@ export default function Work() {
   ];
 
   return (
-    <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
-      <h4 className="text-center mb-2 text-lg font-Ovo">My Portfolio</h4>
-      <h2 className="text-center text-5xl font-Ovo">My Recent Projects</h2>
+    <div id="shippedGames" className="w-full px-[12%] py-10 scroll-mt-20">
+      <h4 className="text-center mb-2 text-lg zalando-sans-body">My Portfolio</h4>
+      <h2 className="text-center text-5xl zalando-sans-heading">My Recent Projects</h2>
 
       <div className="grid grid-cols-auto my-10 gap-5 dark:text-black">
-        {work.map((item) => (
+        {shippedGames.map((item) => (
           <a
             key={item.name}
             href={item.link}
@@ -65,7 +65,7 @@ export default function Work() {
             style={{ backgroundImage: `url(${item.icon})` }}
           >
             <div className="bg-white/20 backdrop-blur-md w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
-              <h2 className="font-semibold">{item.name}</h2>
+              <h2 className="zalando-sans-body">{item.name}</h2>
               <img src="./assets/send-icon.png" alt="Open Project" className="w-5" />
             </div>
           </a>

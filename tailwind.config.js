@@ -4,19 +4,24 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  
   theme: {
     extend: {
       gridTemplateColumns: {
         'auto': 'repeat(auto-fit, minmax(200px, 1fr))'
       },
-      fontFamily: {
-        Outfit: ["Outfit", "sans-serif"],
-        Ovo: ["Ovo", "serif"]
+       keyframes: {
+        wave: {
+           '0%':   { transform: 'rotate(10deg)' },
+    '50%': { transform: 'rotate(-10deg)' },
+     '100%': { transform: 'rotate(10deg)' },
+        },
       },
       animation: {
         spin_slow: 'spin 6s linear infinite',
         spin_slower: 'spin 8s linear infinite', 
-        spin_slowest: 'spin 12s linear infinite', 
+        spin_slowest: 'spin 12s linear infinite',
+        wave: 'wave 2s ease-in-out infinite', 
       },
       colors: {
         lightHover: '#fcf4ff',
@@ -29,6 +34,8 @@ export default {
       }
     },
   },
+  
   darkMode: 'selector',
   plugins: [],
+  
 }

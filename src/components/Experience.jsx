@@ -18,7 +18,7 @@ export default function Experience() {
             role: 'Unity Game Developer',
             company: 'Freelance',
             logo: './assets/linkedin-logo.jpg',
-            duration: 'Sept 2022 - March 2025',
+            duration: 'July 2023 - March 2025',
             achievements: [
                 'Developed core gameplay mechanics',
                 'Implemented object pooling for performance',
@@ -30,7 +30,7 @@ export default function Experience() {
             role: 'Unity Game Developer',
             company: 'Sabasoft Games',
             logo: './assets/sabasoft-logo.png',
-            duration: 'Sept 2022 - March 2025',
+            duration: 'Sept 2022 - June 2023',
             achievements: [
                 'Developed core gameplay mechanics',
                 'Implemented object pooling for performance',
@@ -43,8 +43,8 @@ export default function Experience() {
     return (
         <div id="experience" className="w-full px-[12%] py-10 scroll-mt-20">
 
-            <h4 className="text-center mb-2 text-lg font-Ovo">My journey</h4>
-            <h2 className="text-center text-5xl font-Ovo">Experience</h2>
+            <h4 className="text-center mb-2 text-lg zalando-sans-body">My journey</h4>
+            <h2 className="text-center text-5xl zalando-sans-heading">Experience</h2>
 
             <div className="grid grid-cols-auto gap-6 my-10">
 
@@ -55,13 +55,13 @@ export default function Experience() {
                         <div className="flex items-center gap-4">
                             <img src={exp.logo} alt={exp.company} className="w-12 h-12 object-contain" />
                             <div>
-                                <h3 className="text-lg text-gray-700 dark:text-white">{exp.role}</h3>
-                                <p className="text-sm text-gray-500">{exp.company}</p>
-                                <p className="text-sm text-gray-500">{exp.duration}</p>
+                                <h3 className="text-lg text-gray-700 dark:text-white zalando-sans-midheading">{exp.role}</h3>
+                                <p className="text-sm text-gray-500 zalando-sans-body">{exp.company} </p>
+                                <p className="text-sm text-gray-500 zalando-sans-body-italic">{exp.duration}</p>
                             </div>
                         </div>
 
-                        <ul className="mt-6 list-disc list-inside text-sm text-gray-600 dark:text-white/80 space-y-2">
+                        <ul className="mt-6 list-disc list-inside text-sm text-gray-600 dark:text-white/80 space-y-2 zalando-sans-body">
                             {exp.achievements.map((item, index) => (
                                 <li key={index}>{item}</li>
                             ))}

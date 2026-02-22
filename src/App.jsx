@@ -1,6 +1,5 @@
-// import Contact from './components/Contact'
 import Footer from './components/Footer'
-import Work from './components/Work'
+import ShippedGames from './components/ShippedGames'
 import Experience from './components/Experience'
 import About from './components/About'
 import Header from './components/Header'
@@ -15,8 +14,7 @@ export default function App() {
             <Header />
             <About />
             <Experience />
-            <Work />
-            {/* <Contact /> */}
+            <ShippedGames />
             <Footer />
         </>
     )
