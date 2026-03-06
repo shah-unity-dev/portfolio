@@ -20,7 +20,7 @@ export default function Header() {
         Contact Me
     </a>
 
-    <a href="./assets/shahjahan-unity-dev-3-years.pdf" download
+    <a href="portfolio/assets/shahjahan-unity-dev-3-years.pdf" download
         className="px-10 py-2.5 rounded-full border border-gray-300 dark:border-white/25 hover:bg-slate-100/70 dark:hover:bg-darkHover flex items-center gap-2 bg-white dark:bg-transparent dark:text-white  zalando-sans-midheading">
         My Resume <img src="./assets/download-icon.png" alt="" className="w-4 dark:invert" />
     </a>
