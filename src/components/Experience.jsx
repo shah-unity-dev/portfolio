@@ -7,10 +7,14 @@ export default function Experience() {
             logo: './assets/waywe-gaming.jpg',
             duration: 'April 2025 — Present',
             achievements: [
-                'Developed multiple casual & hybrid mobile games from scratch',
-                'Built scalable gameplay systems using SOLID & OOP',
-                'Polished existing games',
-                'Optimized performance for low-end Android devices'
+                'Shipped multiple casual and hyper-casual games from scratch and using pre-made assets',
+                'Added Localization for Spanish Language using Unity Localization asset table and string table',
+                'Built scale-able Dialogue Manager using Scriptable Objects',
+                'Used Eleven Labs for AI Voiceover for dialogues',
+                'Added Localization for Spanish Language using Unity Localization asset table and string table',
+                'Built daily reward and spin wheel for D7 retention',
+                'Developed Car Modification System from scratch including color, bumpers, spoilers and tyre modifications',
+                'Made cloth knitting patterns by reading pixel art and storing info into json in editor and reading at runtime to knit'
             ]
         },
         
@@ -21,9 +25,8 @@ export default function Experience() {
             duration: 'July 2023 - March 2025',
             achievements: [
                 'Developed core gameplay mechanics',
-                'Implemented object pooling for performance',
-                'Worked with Git in a team environment',
-                'Reduced build size and memory usage'
+                'Developed online multiplayer using Photon Pun 2 and real time crypto prices update',
+                'Developed multiple mini-games like Hole.io, Hit The Mole, Tic Tac Toe, Quiz Game etc'
             ]
         },
         {
@@ -32,10 +35,12 @@ export default function Experience() {
             logo: './assets/sabasoft-logo.png',
             duration: 'Sept 2022 - June 2023',
             achievements: [
-                'Developed core gameplay mechanics',
-                'Implemented object pooling for performance',
-                'Worked with Git in a team environment',
-                'Reduced build size and memory usage'
+                'Developed cozy items drag and drop sorting games',
+                'Made tutorial and levels for multiple hypercasual games',
+                'Built teleportation mechanics',
+                'Reduced build size and memory usage',
+                'Shifted games for Amazon',
+                'Prototyped 2D soccer game'
             ]
         }
     ];
