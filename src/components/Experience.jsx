@@ -7,14 +7,10 @@ export default function Experience() {
             logo: './assets/waywe-gaming.jpg',
             duration: 'April 2025 — Present',
             achievements: [
-                'Shipped multiple casual and hyper-casual games from scratch and using pre-made assets',
-                'Added Localization for Spanish Language using Unity Localization asset table and string table',
-                'Built scale-able Dialogue Manager using Scriptable Objects',
-                'Used Eleven Labs for AI Voiceover for dialogues',
-                'Added Localization for Spanish Language using Unity Localization asset table and string table',
-                'Built daily reward and spin wheel for D7 retention',
-                'Developed Car Modification System from scratch including color, bumpers, spoilers and tyre modifications',
-                'Made cloth knitting patterns by reading pixel art and storing info into json in editor and reading at runtime to knit'
+                'Shipped multiple casual and hyper-casual games, building systems like daily rewards, spin wheel, and a modular car modification system',
+                'Architected a scalable Dialogue Manager using Scriptable Objects and used ElevenLabs for dynamic in-game voiceovers for English & Spanish Language',
+                'Implemented minimap with waypoints, Cinemachine virtual cams, and a generic scene transition system using inverse masking',
+                'Developed a cloth knitting simulation by parsing pixel art into JSON in-editor and reconstructing patterns at runtime through string and spool animations',
             ]
         },
         
@@ -24,9 +20,8 @@ export default function Experience() {
             logo: './assets/linkedin-logo.jpg',
             duration: 'July 2023 - March 2025',
             achievements: [
-                'Developed core gameplay mechanics',
-                'Developed online multiplayer using Photon Pun 2 and real time crypto prices update',
-                'Developed multiple mini-games like Hole.io, Hit The Mole, Tic Tac Toe, Quiz Game etc'
+                'Developed online multiplayer game using Photon PUN 2 with live crypto coin prices integration using CoinMarketCap API',
+                'Built a diverse library of mini-games including Hole.io, Hit The Mole, Tic Tac Toe, and Quiz Game',
             ]
         },
         {
@@ -35,10 +30,8 @@ export default function Experience() {
             logo: './assets/sabasoft-logo.png',
             duration: 'Sept 2022 - June 2023',
             achievements: [
-                'Developed cozy items drag and drop sorting games',
-                'Made tutorial and levels for multiple hypercasual games',
-                'Built teleportation mechanics',
-                'Reduced build size and memory usage',
+                'Developed cozy drag-and-drop item sorting games with polished interaction',
+                'Designed and built tutorials and levels for multiple hypercasual games',
                 'Shifted games for Amazon',
                 'Prototyped 2D soccer game'
             ]
