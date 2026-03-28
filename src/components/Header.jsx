@@ -9,7 +9,7 @@ export default function Header() {
 </h3>
 
             <h1 className="text-3xl sm:text-6xl lg:text-[66px] zalando-sans-body">Unity Game Developer based in Lahore.</h1>
-            <p className="max-w-2xl mx-auto zalando-sans-body">I'm Unity Game Developer from Lahore with 3 years of experience in developing casual, hyper, hybrid and puzzle games. I've shipped 15+ titles.</p>
+            <p className="max-w-2xl mx-auto zalando-sans-body">I'm Unity Game Developer from Lahore with 3+ years of experience in developing casual, hyper, hybrid and puzzle games. I've shipped 20+ titles.</p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
     <a href="https://wa.me/923220260208?text=Assalam-o-Alaikum%20ShahJahan%2C%20I%20came%20from%20your%20portfolio%20website"

@@ -16,12 +16,12 @@ export default function Experience() {
         
         {
             role: 'Unity Game Developer',
-            company: 'Freelance',
+            company: 'Alyxium Studios',
             logo: './assets/linkedin-logo.jpg',
             duration: 'July 2023 - March 2025',
             achievements: [
                 'Developed online multiplayer game using Photon PUN 2 with live crypto coin prices integration using CoinMarketCap API',
-                'Built a diverse library of mini-games including Hole.io, Hit The Mole, Tic Tac Toe, and Quiz Game',
+                'Developed multiple mini-games including Hole.io, Hit The Mole, Tic Tac Toe, and Quiz Game etc',
             ]
         },
         {

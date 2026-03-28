@@ -11,7 +11,7 @@ export default function About() {
             name: 'Projects',
             icon1: './assets/project-icon.png',
             icon2: './assets/project-icon-dark.png',
-            description: 'Shipped 15+ Games',
+            description: 'Shipped 20+ Games',
         },
         {
             name: 'Education',
@@ -41,7 +41,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="flex-1">
-                    <p className="mb-10 max-w-2xl  zalando-sans-body">I have 3 years of experience developing 2D, 3D, puzzle, casual, hyper, hybrid casual games.</p>
+                    <p className="mb-10 max-w-2xl  zalando-sans-body">I have 3+ years of experience developing 2D, 3D, puzzle, casual, hyper, hybrid casual games.</p>
 
                     <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
                         {data.map((data) => (
