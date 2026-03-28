@@ -17,7 +17,7 @@ export default function Experience() {
         {
             role: 'Unity Game Developer',
             company: 'Alyxium Studios',
-            logo: './assets/linkedin-logo.jpg',
+            logo: './assets/alyxium-studios.png',
             duration: 'July 2023 - March 2025',
             achievements: [
                 'Developed online multiplayer game using Photon PUN 2 with live crypto coin prices integration using CoinMarketCap API',
