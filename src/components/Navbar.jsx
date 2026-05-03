@@ -12,9 +12,7 @@ export default function Navbar() {
         sideMenuRef.current.style.transform = 'translateX(16rem)';
     }
     const toggleTheme = () => {
-
         document.documentElement.classList.toggle('dark');
-
         if (document.documentElement.classList.contains('dark')) {
             localStorage.theme = 'dark';
         } else {
@@ -23,7 +21,6 @@ export default function Navbar() {
     }
 
     useEffect(() => {
-
         window.addEventListener('scroll', () => {
             if (scrollY > 50) {
                 navRef.current.classList.add('bg-white', 'bg-opacity-50', 'backdrop-blur-lg', 'shadow-sm', 'dark:bg-darkTheme', 'dark:shadow-white/20');
@@ -33,8 +30,6 @@ export default function Navbar() {
                 navLinkRef.current.classList.add('bg-white', 'shadow-sm', 'bg-opacity-50', 'dark:border', 'dark:border-white/30', "dark:bg-transparent");
             }
         })
-
-        // -------- light mode and dark mode -----------
 
         if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
             document.documentElement.classList.add('dark')
@@ -56,7 +51,7 @@ export default function Navbar() {
                     <img src="./assets/logo_dark.png" alt="Logo" className="w-28 cursor-pointer mr-14 hidden dark:block" />
                 </a>
 
-                <ul ref={navLinkRef} className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50  zalando-sans-body dark:border dark:border-white/30 dark:bg-transparent ">
+                <ul ref={navLinkRef} className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50 zalando-sans-body dark:border dark:border-white/30 dark:bg-transparent">
                     <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#top">Home</a></li>
                     <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#about">About me</a></li>
                     <li><a className='hover:text-gray-500 dark:hover:text-gray-300 transition' href="#experience">Experience</a></li>
@@ -69,29 +64,25 @@ export default function Navbar() {
                         <img src="./assets/sun_icon.png" alt="" className="w-6 hidden dark:block" />
                     </button>
 
-                 
-    <a href="https://mailto:shah.unity.dev@gmail.com/"
-     target="_blank"
-        rel="noopener noreferrer"
-        className="px-5 py-1 rounded-full border border-gray-300 dark:border-white/25 hover:bg-slate-100/70 dark:hover:bg-darkHover flex items-center gap-2 bg-white dark:bg-transparent dark:text-white">
-        Email <img src="./assets/arrow-icon.png" alt="" className="w-3 dark:invert" />
-    </a>
-
+                    <a href="mailto:shah.unity.dev@gmail.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() => gtag('event', 'conversion', { 'event_label': 'email_click' })}
+                        className="px-5 py-1 rounded-full border border-gray-300 dark:border-white/25 hover:bg-slate-100/70 dark:hover:bg-darkHover flex items-center gap-2 bg-white dark:bg-transparent dark:text-white">
+                        Email <img src="./assets/arrow-icon.png" alt="" className="w-3 dark:invert" />
+                    </a>
 
                     <button className="block md:hidden ml-3" onClick={openMenu}>
                         <img src="./assets/menu-black.png" alt="" className="w-7 dark:hidden" />
                         <img src="./assets/menu-white.png" alt="" className="w-7 hidden dark:block" />
                     </button>
-
                 </div>
-                {/* -- ----- mobile menu ------  -- */}
-                <ul ref={sideMenuRef} className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500  zalando-sans-body dark:bg-darkHover dark:text-white">
 
+                <ul ref={sideMenuRef} className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500 zalando-sans-body dark:bg-darkHover dark:text-white">
                     <div className="absolute right-6 top-6" onClick={closeMenu}>
                         <img src="./assets/close-black.png" alt="" className="w-7 cursor-pointer dark:hidden" />
                         <img src="./assets/close-white.png" alt="" className="w-7 cursor-pointer hidden dark:block" />
                     </div>
-
                     <li><a href="#top" onClick={closeMenu}>Home</a></li>
                     <li><a href="#about" onClick={closeMenu}>About me</a></li>
                     <li><a href="#experience" onClick={closeMenu}>Experience</a></li>
